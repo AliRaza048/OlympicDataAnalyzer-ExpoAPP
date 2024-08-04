@@ -1,0 +1,17 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+, "components/MedalTallyTable..js", "apis/common_apis/common_apis.js", "apis/urls.js", "app/(tabs)/overallCharts.tsx", "components/webComponents/athletsWiseAnalysis.web.js", "screens/WelcomeScreen.js", "screens/SignUpScreen.js", "screens/LoginScreen.js", "screens/HomeScreen.js"  ]
+}
